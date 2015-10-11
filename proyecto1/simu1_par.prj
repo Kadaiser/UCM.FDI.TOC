@@ -1,0 +1,2 @@
+verilog work "netgen/par/sumador_timesim.v"
+vhdl work "simu1.vhd"
