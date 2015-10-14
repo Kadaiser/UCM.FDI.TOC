@@ -6,28 +6,28 @@ FL "D:/Kadaiser/Desktop/Nueva carpeta/TOC-master/TOC-master/P1b/contador.vhd" 20
 FL "D:/Kadaiser/Desktop/Nueva carpeta/TOC-master/TOC-master/P1b/divisor.vhd" 2015/10/13.14:41:18 P.20131013
 FL "D:/Kadaiser/Desktop/Nueva carpeta/TOC-master/TOC-master/P1b/RD.vhd" 2015/10/13.17:04:10 P.20131013
 FL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd 2015/10/13.16:59:07 P.20131013
-EN work/sumador 1444815181 FL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd \
+EN work/sumador 1444832303 FL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd \
       PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
       PB ieee/STD_LOGIC_UNSIGNED 1335251625
-AR work/sumador/Behavioral 1444815182 \
-      FL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd EN work/sumador 1444815181
-FL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd 2015/10/13.17:40:43 P.20131013
-EN work/contador 1444815183 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd \
+AR work/sumador/Behavioral 1444832304 \
+      FL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd EN work/sumador 1444832303
+FL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd 2015/10/14.16:18:08 P.20131013
+EN work/contador 1444832305 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd \
       PB ieee/std_logic_1164 1335251622
-AR work/contador/Behavioral 1444815184 \
-      FL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd EN work/contador 1444815183 \
+AR work/contador/Behavioral 1444832306 \
+      FL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd EN work/contador 1444832305 \
       CP reg_paralelo CP sumador
 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd 2015/10/13.14:41:18 P.20131013
-EN work/divisor 1444815177 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd \
+EN work/divisor 1444832299 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd \
       PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
-AR work/divisor/rtl 1444815178 \
-      FL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd EN work/divisor 1444815177 \
+AR work/divisor/rtl 1444832300 \
+      FL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd EN work/divisor 1444832299 \
       CP clk_1hz
 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd 2015/10/13.17:04:10 P.20131013
-EN work/reg_paralelo 1444815179 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd \
+EN work/reg_paralelo 1444832301 FL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd \
       PB ieee/std_logic_1164 1335251622
-AR work/reg_paralelo/circuito 1444815180 \
-      FL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd EN work/reg_paralelo 1444815179 \
+AR work/reg_paralelo/circuito 1444832302 \
+      FL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd EN work/reg_paralelo 1444832301 \
       CP divisor
 FL "E:/Nueva carpeta/TOC-master/TOC-master/p1a/sumador.vhd" 2015/10/13.16:59:07 P.20131013
 FL "E:/Nueva carpeta/TOC-master/TOC-master/P1b/contador.vhd" 2015/10/13.17:40:43 P.20131013

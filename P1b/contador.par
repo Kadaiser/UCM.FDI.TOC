@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-FASUS::  Wed Oct 14 11:33:15 2015
+FASUS::  Wed Oct 14 16:19:28 2015
 
 par -w -intstyle ise -ol high -t 1 contador_map.ncd contador.ncd contador.pcf 
 
@@ -38,48 +38,48 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 1 secs 
-Finished initial Timing Analysis.  REAL time: 1 secs 
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
-Total CPU  time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 4 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:61089d4d) REAL time: 1 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:61089d4d) REAL time: 6 secs 
 
 Phase 2.7  Design Feasibility Check
 INFO:Place:834 - Only a subset of IOs are locked. Out of 7 IOs, 6 are locked and 1 are not locked. If you would like to
    print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
-Phase 2.7  Design Feasibility Check (Checksum:61089d4d) REAL time: 1 secs 
+Phase 2.7  Design Feasibility Check (Checksum:61089d4d) REAL time: 6 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:61089d4d) REAL time: 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:61089d4d) REAL time: 6 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:d5d5ce6d) REAL time: 1 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:d5d5ce6d) REAL time: 7 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:d5d5ce6d) REAL time: 1 secs 
+Phase 5.36  Local Placement Optimization (Checksum:d5d5ce6d) REAL time: 7 secs 
 
 Phase 6.8  Global Placement
 .......................
 ..
-Phase 6.8  Global Placement (Checksum:f80305ae) REAL time: 2 secs 
+Phase 6.8  Global Placement (Checksum:f80305ae) REAL time: 11 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:f80305ae) REAL time: 2 secs 
+Phase 7.5  Local Placement Optimization (Checksum:f80305ae) REAL time: 11 secs 
 
 Phase 8.18  Placement Optimization
-Phase 8.18  Placement Optimization (Checksum:ae616680) REAL time: 3 secs 
+Phase 8.18  Placement Optimization (Checksum:ae616680) REAL time: 12 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:ae616680) REAL time: 3 secs 
+Phase 9.5  Local Placement Optimization (Checksum:ae616680) REAL time: 12 secs 
 
-Total REAL time to Placer completion: 3 secs 
-Total CPU  time to Placer completion: 2 secs 
+Total REAL time to Placer completion: 12 secs 
+Total CPU  time to Placer completion: 9 secs 
 Writing design to file contador.ncd
 
 
@@ -87,32 +87,32 @@ Writing design to file contador.ncd
 Starting Router
 
 
-Phase  1  : 169 unrouted;      REAL time: 3 secs 
+Phase  1  : 169 unrouted;      REAL time: 13 secs 
 
-Phase  2  : 152 unrouted;      REAL time: 3 secs 
+Phase  2  : 152 unrouted;      REAL time: 13 secs 
 
-Phase  3  : 9 unrouted;      REAL time: 3 secs 
+Phase  3  : 9 unrouted;      REAL time: 13 secs 
 
-Phase  4  : 26 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  4  : 26 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
 Updating file: contador.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 WARNING:Route:455 - CLK Net:mod_reg_paralelo/Nuevo_reloj/clk_1hz_reg may have excessive skew because 
       0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 4 secs 
-Total CPU time to Router completion: 3 secs 
+Total REAL time to Router completion: 17 secs 
+Total CPU time to Router completion: 13 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -174,8 +174,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 4 secs 
-Total CPU time to PAR completion: 4 secs 
+Total REAL time to PAR completion: 18 secs 
+Total CPU time to PAR completion: 14 secs 
 
 Peak Memory Usage:  264 MB
 
