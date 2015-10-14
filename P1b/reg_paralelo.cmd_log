@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/hlocal/P1b/reg_paralelo.xst" -ofn "C:/hlocal/P1b/reg_paralelo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 reg_paralelo.ngc reg_paralelo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o reg_paralelo_map.ncd reg_paralelo.ngd reg_paralelo.pcf 
+par -w -intstyle ise -ol high -t 1 reg_paralelo_map.ncd reg_paralelo.ncd reg_paralelo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml reg_paralelo.twx reg_paralelo.ncd -o reg_paralelo.twr reg_paralelo.pcf 
+bitgen -intstyle ise -f reg_paralelo.ut reg_paralelo.ncd 
+xst -intstyle ise -ifn "C:/hlocal/P1b/reg_paralelo.xst" -ofn "C:/hlocal/P1b/reg_paralelo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines1b.ucf -p xc3s1000-ft256-5 reg_paralelo.ngc reg_paralelo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o reg_paralelo_map.ncd reg_paralelo.ngd reg_paralelo.pcf 
+par -w -intstyle ise -ol high -t 1 reg_paralelo_map.ncd reg_paralelo.ncd reg_paralelo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml reg_paralelo.twx reg_paralelo.ncd -o reg_paralelo.twr reg_paralelo.pcf -ucf pines1b.ucf 
+bitgen -intstyle ise -f reg_paralelo.ut reg_paralelo.ncd 
+vhdtdtfi -lib work divisor.vhd -lib work RD.vhd -prj P1b -o reg_paralelo.spl -module reg_paralelo -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 reg_paralelo.spl {E:/Nueva carpeta/TOC-master/TOC-master/P1b/reg_paralelo.sym} 
+vhdtdtfi -prj P1b -o "E:/Nueva carpeta/TOC-master/TOC-master/P1b/reg_paralelo.vhi" -module reg_paralelo -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work divisor.vhd -lib work RD.vhd 
+xst -intstyle ise -ifn "E:/Nueva carpeta/TOC-master/TOC-master/P1b/reg_paralelo.xst" -ofn "E:/Nueva carpeta/TOC-master/TOC-master/P1b/reg_paralelo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines1b.ucf -p xc3s1000-ft256-5 "reg_paralelo.ngc" reg_paralelo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o reg_paralelo_map.ncd reg_paralelo.ngd reg_paralelo.pcf 
+xst -intstyle ise -ifn "E:/Nueva carpeta/TOC-master/TOC-master/P1b/reg_paralelo.xst" -ofn "E:/Nueva carpeta/TOC-master/TOC-master/P1b/reg_paralelo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines1b.ucf -p xc3s1000-ft256-5 "reg_paralelo.ngc" reg_paralelo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o reg_paralelo_map.ncd reg_paralelo.ngd reg_paralelo.pcf 
+par -w -intstyle ise -ol high -t 1 reg_paralelo_map.ncd reg_paralelo.ncd reg_paralelo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml reg_paralelo.twx reg_paralelo.ncd -o reg_paralelo.twr reg_paralelo.pcf -ucf pines1b.ucf 
+bitgen -intstyle ise -f reg_paralelo.ut reg_paralelo.ncd 

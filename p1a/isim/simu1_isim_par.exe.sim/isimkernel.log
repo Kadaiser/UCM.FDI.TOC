@@ -1,0 +1,28 @@
+Command line:
+   simu1_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1302
+
+Tue Oct 13 14:40:55 2015
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 826.237 Meg
+
+ Total Signals          : 186
+ Total Nets             : 101
+ Total Signal Drivers   : 82
+ Total Blocks           : 58
+ Total Primitive Blocks : 49
+ Total Processes        : 85
+ Total Traceable Variables  : 126
+ Total Scalar Nets and Variables : 4117
+
+ Total Simulation Time: 0.078 sec
+
+ Current Memory Usage: 826.237 Meg
+
+Tue Oct 13 14:40:59 2015
+

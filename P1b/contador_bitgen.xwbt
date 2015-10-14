@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Kadaiser\Documents\GitHub\TOC\P1b\contador.ncd
+OUTFILE=D:\Kadaiser\Documents\GitHub\TOC\P1b\contador.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=D:\Kadaiser\Documents\GitHub\TOC\P1b
+LICENSE=WebPack
+USER_INFO=211101319_0_0_059

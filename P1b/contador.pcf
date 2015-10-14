@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Oct 14 11:33:12 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Z<0>" LOCATE = SITE "L5" LEVEL 1;
+COMP "Z<1>" LOCATE = SITE "N2" LEVEL 1;
+COMP "Z<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "Z<3>" LOCATE = SITE "N1" LEVEL 1;
+COMP "load" LOCATE = SITE "J1" LEVEL 1;
+COMP "rst" LOCATE = SITE "P12" LEVEL 1;
+NET "clk_100mhz_BUFGP/IBUFG" BEL "clk_100mhz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

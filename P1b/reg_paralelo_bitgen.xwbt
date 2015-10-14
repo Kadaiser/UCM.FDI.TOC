@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Nueva carpeta\TOC-master\TOC-master\P1b\reg_paralelo.ncd
+OUTFILE=E:\Nueva carpeta\TOC-master\TOC-master\P1b\reg_paralelo.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=E:\Nueva carpeta\TOC-master\TOC-master\P1b
+LICENSE=WebPack
+USER_INFO=210699396_1777489394_210552810_807
