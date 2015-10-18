@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Type of <arg fmt="%s" index="3">estado</arg> is incompatible with type of <arg fmt="%s" index="4">&apos;0&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. <arg fmt="%s" index="3">parse error, unexpected END, expecting SEMICOLON</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd</arg>&quot; Line <arg fmt="%d" index="2">70</arg>. <arg fmt="%s" index="3">parse error, unexpected ELSE, expecting END</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="813" delta="new" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. Enumerated value <arg fmt="%s" index="3">s0</arg> is missing in <arg fmt="%s" index="4">case</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. <arg fmt="%s" index="3">parse error, unexpected PROCESS, expecting CASE</arg>
+</msg>
+
+</messages>
+

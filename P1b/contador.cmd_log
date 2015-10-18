@@ -40,3 +40,4 @@ map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o contado
 par -w -intstyle ise -ol high -t 1 contador_map.ncd contador.ncd contador.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml contador.twx contador.ncd -o contador.twr contador.pcf -ucf pines1b.ucf 
 bitgen -intstyle ise -f contador.ut contador.ncd 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.syr" 

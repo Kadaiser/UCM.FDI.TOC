@@ -21,8 +21,69 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="P2a.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FSM_munyeca.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FSM_munyeca.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FSM_munyeca.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FSM_munyeca.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSM_munyeca.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FSM_munyeca.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FSM_munyeca.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FSM_munyeca.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FSM_munyeca_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FSM_munyeca_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSM_munyeca_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FSM_munyeca_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8839647456726005380" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7445628219654004497" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8843784545455332036" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7493580321283413264" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1444838096" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3595387094181146041" xil_pn:start_ts="1444838096">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445004593" xil_pn:in_ck="6088736539565823687" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="3362181956564255375" xil_pn:start_ts="1445004573">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FSM_munyeca.lso"/>
+      <outfile xil_pn:name="FSM_munyeca.ngc"/>
+      <outfile xil_pn:name="FSM_munyeca.ngr"/>
+      <outfile xil_pn:name="FSM_munyeca.prj"/>
+      <outfile xil_pn:name="FSM_munyeca.stx"/>
+      <outfile xil_pn:name="FSM_munyeca.syr"/>
+      <outfile xil_pn:name="FSM_munyeca.xst"/>
+      <outfile xil_pn:name="FSM_munyeca_vhdl.prj"/>
+      <outfile xil_pn:name="FSM_munyeca_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
 
 </generated_project>

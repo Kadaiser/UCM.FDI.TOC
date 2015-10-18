@@ -1,8 +1,8 @@
-AR divisor rtl D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd sub00/vhpl01 1444832300
-AR reg_paralelo circuito D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd sub00/vhpl03 1444832302
-AR sumador behavioral D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd sub00/vhpl05 1444832304
-EN divisor NULL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd sub00/vhpl00 1444832299
-EN reg_paralelo NULL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd sub00/vhpl02 1444832301
-EN contador NULL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd sub00/vhpl06 1444832305
-EN sumador NULL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd sub00/vhpl04 1444832303
-AR contador behavioral D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd sub00/vhpl07 1444832306
+AR divisor rtl D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd sub00/vhpl01 1444901670
+AR reg_paralelo circuito D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd sub00/vhpl03 1444901672
+AR sumador behavioral D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd sub00/vhpl05 1444901674
+EN divisor NULL D:/Kadaiser/Documents/GitHub/TOC/P1b/divisor.vhd sub00/vhpl00 1444901669
+EN reg_paralelo NULL D:/Kadaiser/Documents/GitHub/TOC/P1b/RD.vhd sub00/vhpl02 1444901671
+EN contador NULL D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd sub00/vhpl06 1444901675
+EN sumador NULL D:/Kadaiser/Documents/GitHub/TOC/p1a/sumador.vhd sub00/vhpl04 1444901673
+AR contador behavioral D:/Kadaiser/Documents/GitHub/TOC/P1b/contador.vhd sub00/vhpl07 1444901676
