@@ -1,3 +1,13 @@
 xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
 xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
 xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/P2a/FSM_munyeca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-fg320-5 FSM_munyeca.ngc FSM_munyeca.ngd  
+map -intstyle ise -p xc3s1000-fg320-5 -cm area -ir off -pr off -c 100 -o FSM_munyeca_map.ncd FSM_munyeca.ngd FSM_munyeca.pcf 
+par -w -intstyle ise -ol high -t 1 FSM_munyeca_map.ncd FSM_munyeca.ncd FSM_munyeca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FSM_munyeca.twx FSM_munyeca.ncd -o FSM_munyeca.twr FSM_munyeca.pcf 

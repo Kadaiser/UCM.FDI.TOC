@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="nt64" product="ISE" version="14.7">
+<document OS="nt" product="ISE" version="14.7">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Fri Oct 16 16:09:40 2015">
+  <application stringID="Xst" timeStamp="Mon Oct 19 17:01:39 2015">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\bin\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\lib\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Desarrollo\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\bin\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\lib\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\common\bin\nt64;D:\Desarrollo\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Desarrollo\EclipeJuno\EclipseARM\sourcery-g++-lite-arm-2011.03\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Kadaiser\AppData\Local\atom\bin;C:\Users\Kadaiser\AppData\Roaming\npm"/>
+          <item stringID="value" value="D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\\lib\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\\bin\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\bin\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\lib\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Desarrollo\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\bin\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\lib\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_be\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_le\bin;D:\Desarrollo\Xilinx\14.7\ISE_DS\common\bin\nt;D:\Desarrollo\Xilinx\14.7\ISE_DS\common\lib\nt;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Desarrollo\EclipeJuno\EclipseARM\sourcery-g++-lite-arm-2011.03\bin;C:\Users\Kadaiser\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\Java\jdk1.8.0_60\bin;D:\Desarrollo\Xilinx\Xstools;C:\Users\Kadaiser\AppData\Local\atom\bin;C:\Users\Kadaiser\AppData\Roaming\npm"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -109,12 +109,22 @@
       <item DEFAULT="YES" label="-equivalent_register_removal" stringID="XST_EQUIVALENTREGISTERREMOVAL" value="YES"/>
       <item DEFAULT="0%" label="-slice_utilization_ratio_maxmargin" stringID="XST_SLICEUTILIZATIONRATIOMAXMARGIN" value="5"/>
     </section>
+    <section stringID="XST_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_COUNTERS" value="1"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="1">
+        <item dataType="int" stringID="XST_1BIT_REGISTER" value="1"/>
+      </item>
+    </section>
     <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
       <item dataType="int" stringID="XST_FSMS" value="1"/>
+      <item dataType="int" stringID="XST_COUNTERS" value="1"></item>
+      <item dataType="int" stringID="XST_REGISTERS" value="1">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="1"/>
+      </item>
     </section>
     <section stringID="XST_FINAL_REGISTER_REPORT">
-      <item dataType="int" stringID="XST_REGISTERS" value="2">
-        <item dataType="int" stringID="XST_FLIPFLOPS" value="2"/>
+      <item dataType="int" stringID="XST_REGISTERS" value="28">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="28"/>
       </item>
     </section>
     <section stringID="XST_PARTITION_REPORT">
@@ -134,12 +144,19 @@
         <item stringID="XST_IOS" value="6"/>
       </section>
       <section stringID="XST_CELL_USAGE">
-        <item dataType="int" stringID="XST_BELS" value="4">
-          <item dataType="int" stringID="XST_LUT2" value="2"/>
-          <item dataType="int" stringID="XST_LUT4" value="2"/>
+        <item dataType="int" stringID="XST_BELS" value="120">
+          <item dataType="int" stringID="XST_GND" value="1"/>
+          <item dataType="int" stringID="XST_INV" value="2"/>
+          <item dataType="int" stringID="XST_LUT1" value="25"/>
+          <item dataType="int" stringID="XST_LUT2" value="27"/>
+          <item dataType="int" stringID="XST_LUT4" value="8"/>
+          <item dataType="int" stringID="XST_MUXCY" value="31"/>
+          <item dataType="int" stringID="XST_VCC" value="1"/>
+          <item dataType="int" stringID="XST_XORCY" value="25"/>
         </item>
-        <item dataType="int" stringID="XST_FLIPFLOPSLATCHES" value="2">
-          <item dataType="int" stringID="XST_FDC" value="2"/>
+        <item dataType="int" stringID="XST_FLIPFLOPSLATCHES" value="28">
+          <item dataType="int" stringID="XST_FDC" value="27"/>
+          <item dataType="int" stringID="XST_FDCE" value="1"/>
         </item>
         <item dataType="int" stringID="XST_CLOCK_BUFFERS" value="1">
           <item dataType="int" stringID="XST_BUFGP" value="1"/>
@@ -152,9 +169,9 @@
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="3s1000fg320-5"/>
-      <item AVAILABLE="7680" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="2"/>
-      <item AVAILABLE="15360" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="2"/>
-      <item AVAILABLE="15360" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="4"/>
+      <item AVAILABLE="7680" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="34"/>
+      <item AVAILABLE="15360" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="28"/>
+      <item AVAILABLE="15360" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="62"/>
       <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="6"/>
       <item AVAILABLE="221" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="6"/>
       <item AVAILABLE="8" dataType="int" label="Number of GCLKs" stringID="XST_NUMBER_OF_GCLKS" value="1"/>
@@ -165,7 +182,7 @@
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="0"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="1"/>
     </section>
   </application>
 

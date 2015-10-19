@@ -30,7 +30,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity FSM_munyeca is
-    Port ( clk : in  STD_LOGIC;
+    Port ( clk_100mhz : in  STD_LOGIC;
            rst : in  STD_LOGIC;
            R : in  STD_LOGIC;
            C : in  STD_LOGIC;
@@ -40,17 +40,26 @@ end FSM_munyeca;
 
 architecture Behavioral of FSM_munyeca is
 
+component divisor is
+	Port	(rst,clk_100mhz: in STD_LOGIC;
+			clk_1hz: out STD_LOGIC);
+end component;
+
+signal clk_1Hz: std_logic;
+
 type estados is (tranquila, habla, dormida, asustada);
 
 signal estado, sig_estado: estados;
 
 begin
+
+modulo_divisor: divisor port map (rst, clk_100mhz, clk_1Hz);
 ---------------------------------------------------------
-	process(rst, clk)
+	process(rst, clk_1hz)
 		begin
 		if rst = '1' then
 			estado <= tranquila;
-		elsif rising_edge(clk) then
+		elsif rising_edge(clk_1Hz) then
 			estado <= sig_estado;
 		end if;
 	end process;
