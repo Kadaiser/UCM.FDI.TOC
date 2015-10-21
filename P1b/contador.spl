@@ -1,7 +1,0 @@
-[Inputs]
-rst
-clk_100mhz
-load
-[Outputs]
-=Z[3:0]=
-[BiDir]

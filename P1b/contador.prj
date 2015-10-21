@@ -1,4 +1,0 @@
-vhdl work "divisor.vhd"
-vhdl work "RD.vhd"
-vhdl work "../p1a/sumador.vhd"
-vhdl work "contador.vhd"

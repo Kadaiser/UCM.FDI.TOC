@@ -1,3 +1,0 @@
-vhdtdtfi -lib work ../p1a/sumador.vhd -prj P1b -o sumador.spl -module sumador -template D:/Desarrollo/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3 sumador.spl D:/Kadaiser/Documents/GitHub/TOC/P1b/sumador.sym 
-vhdtdtfi -prj P1b -o D:/Kadaiser/Documents/GitHub/TOC/P1b/sumador.vhi -module sumador -template D:/Desarrollo/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../p1a/sumador.vhd 

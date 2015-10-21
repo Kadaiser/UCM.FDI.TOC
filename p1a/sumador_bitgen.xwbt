@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\hlocal\TOC-master\TOC-master\proyecto1\sumador.ncd
-OUTFILE=C:\hlocal\TOC-master\TOC-master\proyecto1\sumador.bit
-FAMILY=Spartan3
-PART=xc3s1000-5ft256
-WORKINGDIR=C:\hlocal\TOC-master\TOC-master\proyecto1
-LICENSE=WebPack
-USER_INFO=210699396_1777489394_210552810_807

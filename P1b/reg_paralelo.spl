@@ -1,8 +1,0 @@
-[Inputs]
-rst
-clk_100MHz
-load
-=E[7:0]=
-[Outputs]
-=S[7:0]=
-[BiDir]

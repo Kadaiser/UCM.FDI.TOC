@@ -1,5 +1,0 @@
-set -tmpdir "D:/Kadaiser/Documents/GitHub/TOC/P2a/xst/projnav.tmp"
-set -xsthdpdir "D:/Kadaiser/Documents/GitHub/TOC/P2a/xst"
-elaborate
--ifn FSM_munyeca.prj
--ifmt mixed
