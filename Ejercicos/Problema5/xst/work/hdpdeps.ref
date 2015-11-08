@@ -1,0 +1,8 @@
+V3 3
+FL D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd 2015/10/15.16:08:40 P.20131013
+EN work/reconocedor_patron 0 \
+      FL D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reconocedor_patron/rec 0 \
+      FL D:/Kadaiser/Documents/GitHub/TOC/Ejercicos/Problema5/reconocedor_patron.vhd \
+      EN work/reconocedor_patron 0
