@@ -1,0 +1,3 @@
+vhdtdtfi -lib work full_adder.vhd -prj practica3 -o full_adder.spl -module full_adder -template D:/Desarrollo/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 full_adder.spl D:/Kadaiser/Documents/GitHub/TOC/practica3/full_adder.sym 
+vhdtdtfi -prj practica3 -o D:/Kadaiser/Documents/GitHub/TOC/practica3/full_adder.tfi -module full_adder -template D:/Desarrollo/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work full_adder.vhd 

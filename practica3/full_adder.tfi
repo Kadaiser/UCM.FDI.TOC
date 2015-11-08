@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+full_adder instance_name (
+    .x(x), 
+    .y(y), 
+    .Cin(Cin), 
+    .Cout(Cout), 
+    .S(S)
+    );
+
+
