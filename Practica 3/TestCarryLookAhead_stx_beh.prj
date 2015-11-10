@@ -1,0 +1,4 @@
+vhdl isim_temp "uaa.vhd"
+vhdl isim_temp "FullAdderGP.vhd"
+vhdl isim_temp "carrylookahead.vhd"
+vhdl isim_temp "TestCarryLookAhead.vhd"

@@ -1,9 +1,0 @@
-[Inputs]
-x
-y
-cin
-[Outputs]
-g
-p
-s
-[BiDir]

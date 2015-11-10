@@ -1,5 +1,0 @@
-set -tmpdir "D:/Kadaiser/Documents/GitHub/TOC/practica3/xst/projnav.tmp"
-set -xsthdpdir "D:/Kadaiser/Documents/GitHub/TOC/practica3/xst"
-elaborate
--ifn fa_gp.prj
--ifmt mixed

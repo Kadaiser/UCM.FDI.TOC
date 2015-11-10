@@ -1,0 +1,318 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: carryRipple.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "carryRipple.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "carryRipple"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : carryRipple
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/full_adder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/carry-ripple.vhd" in Library work.
+Architecture behavioral of Entity carryripple is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <carryRipple> in library <work> (architecture <behavioral>) with generics.
+	n = 16
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <carryRipple> in library <work> (Architecture <behavioral>).
+	n = 16
+Entity <carryRipple> analyzed. Unit <carryRipple> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <behavioral>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "D:/Kadaiser/Desktop/Practica 3/full_adder.vhd".
+    Found 1-bit xor3 for signal <add>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <carryRipple>.
+    Related source file is "D:/Kadaiser/Desktop/Practica 3/carry-ripple.vhd".
+Unit <carryRipple> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 16
+ 1-bit xor3                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 16
+ 1-bit xor3                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <carryRipple> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block carryRipple, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : carryRipple.ngr
+Top Level Output File Name         : carryRipple
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 50
+
+Cell Usage :
+# BELS                             : 32
+#      LUT3                        : 32
+# IO Buffers                       : 50
+#      IBUF                        : 33
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                       18  out of   7680     0%  
+ Number of 4 input LUTs:                 32  out of  15360     0%  
+ Number of IOs:                          50
+ Number of bonded IOBs:                  50  out of    173    28%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 27.312ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 321 / 17
+-------------------------------------------------------------------------
+Delay:               27.312ns (Levels of Logic = 18)
+  Source:            op1<0> (PAD)
+  Destination:       add<15> (PAD)
+
+  Data Path: op1<0> to add<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  op1_0_IBUF (op1_0_IBUF)
+     LUT3:I0->O            2   0.479   0.804  gen1[0].FA/cout1 (Carry<1>)
+     LUT3:I2->O            2   0.479   0.804  gen1[1].FA/cout1 (Carry<2>)
+     LUT3:I2->O            2   0.479   0.804  gen1[2].FA/cout1 (Carry<3>)
+     LUT3:I2->O            2   0.479   0.804  gen1[3].FA/cout1 (Carry<4>)
+     LUT3:I2->O            2   0.479   0.804  gen1[4].FA/cout1 (Carry<5>)
+     LUT3:I2->O            2   0.479   0.804  gen1[5].FA/cout1 (Carry<6>)
+     LUT3:I2->O            2   0.479   0.804  gen1[6].FA/cout1 (Carry<7>)
+     LUT3:I2->O            2   0.479   0.804  gen1[7].FA/cout1 (Carry<8>)
+     LUT3:I2->O            2   0.479   0.804  gen1[8].FA/cout1 (Carry<9>)
+     LUT3:I2->O            2   0.479   0.804  gen1[9].FA/cout1 (Carry<10>)
+     LUT3:I2->O            2   0.479   0.804  gen1[10].FA/cout1 (Carry<11>)
+     LUT3:I2->O            2   0.479   0.804  gen1[11].FA/cout1 (Carry<12>)
+     LUT3:I2->O            2   0.479   0.804  gen1[12].FA/cout1 (Carry<13>)
+     LUT3:I2->O            2   0.479   0.804  gen1[13].FA/cout1 (Carry<14>)
+     LUT3:I2->O            2   0.479   1.040  gen1[14].FA/cout1 (Carry<15>)
+     LUT3:I0->O            1   0.479   0.681  gen1[15].FA/Mxor_add_xo<0>1 (add_15_OBUF)
+     OBUF:I->O                 4.909          add_15_OBUF (add<15>)
+    ----------------------------------------
+    Total                     27.312ns (13.288ns logic, 14.024ns route)
+                                       (48.7% logic, 51.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.25 secs
+ 
+--> 
+
+Total memory usage is 234616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

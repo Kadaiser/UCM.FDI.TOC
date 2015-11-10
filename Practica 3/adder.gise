@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="adder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestCarryLookAhead2_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestCarryLookAhead2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestCarryLookAhead2_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestCarryLookAhead_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestCarryLookAhead_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestCarryRipple_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestCarryRipple_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestNadder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestNadder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="adder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="adder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="adder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="adder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="adder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="adder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="adder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="adder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="adder_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="adder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="carryRipple.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="carryRipple.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="carryRipple.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="carryRipple.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carryRipple.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="carryRipple.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="carryRipple.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="carryRipple.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carryRipple_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carryRipple_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carryRipple_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carryRipple_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="carrylookahead.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="carrylookahead.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="carrylookahead.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="carrylookahead.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carrylookahead.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="carrylookahead.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="carrylookahead.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="carrylookahead.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="carrylookahead2.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="carrylookahead2.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="carrylookahead2.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="carrylookahead2.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carrylookahead2.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="carrylookahead2.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="carrylookahead2.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="carrylookahead2.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carrylookahead2_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carrylookahead2_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carrylookahead2_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carrylookahead2_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carrylookahead_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="carrylookahead_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carrylookahead_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="carrylookahead_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447090316" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1447090316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156851" xil_pn:in_ck="1762964487132941336" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1447156851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FullAdderGP.vhd"/>
+      <outfile xil_pn:name="GenericNadder.vhd"/>
+      <outfile xil_pn:name="TestCarryLookAhead.vhd"/>
+      <outfile xil_pn:name="TestCarryLookAhead2.vhd"/>
+      <outfile xil_pn:name="TestCarryRipple.vhd"/>
+      <outfile xil_pn:name="TestNadder.vhd"/>
+      <outfile xil_pn:name="carry-ripple.vhd"/>
+      <outfile xil_pn:name="carrylookahead.vhd"/>
+      <outfile xil_pn:name="carrylookahead2.vhd"/>
+      <outfile xil_pn:name="full_adder.vhd"/>
+      <outfile xil_pn:name="uaa.vhd"/>
+      <outfile xil_pn:name="uaalvl1.vhd"/>
+      <outfile xil_pn:name="uaalvl2.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156818" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2358452929172371269" xil_pn:start_ts="1447156818">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156818" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4094770885824503411" xil_pn:start_ts="1447156818">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156818" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2913247556024350872" xil_pn:start_ts="1447156818">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156851" xil_pn:in_ck="1762964487132941336" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1447156851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FullAdderGP.vhd"/>
+      <outfile xil_pn:name="GenericNadder.vhd"/>
+      <outfile xil_pn:name="TestCarryLookAhead.vhd"/>
+      <outfile xil_pn:name="TestCarryLookAhead2.vhd"/>
+      <outfile xil_pn:name="TestCarryRipple.vhd"/>
+      <outfile xil_pn:name="TestNadder.vhd"/>
+      <outfile xil_pn:name="carry-ripple.vhd"/>
+      <outfile xil_pn:name="carrylookahead.vhd"/>
+      <outfile xil_pn:name="carrylookahead2.vhd"/>
+      <outfile xil_pn:name="full_adder.vhd"/>
+      <outfile xil_pn:name="uaa.vhd"/>
+      <outfile xil_pn:name="uaalvl1.vhd"/>
+      <outfile xil_pn:name="uaalvl2.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156860" xil_pn:in_ck="1762964487132941336" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5240370825829883991" xil_pn:start_ts="1447156851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="TestCarryLookAhead2_beh.prj"/>
+      <outfile xil_pn:name="TestCarryLookAhead2_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1447156861" xil_pn:in_ck="314672270454818107" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7681709225748762836" xil_pn:start_ts="1447156860">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="TestCarryLookAhead2_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165012" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1447165012">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165357" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8401118175570295717" xil_pn:start_ts="1447165357">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165357" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2631052139063155789" xil_pn:start_ts="1447165357">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165357" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1447165357">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165357" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-88468597315488019" xil_pn:start_ts="1447165357">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165357" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7493580321282947067" xil_pn:start_ts="1447165357">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165357" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1583412082275018345" xil_pn:start_ts="1447165357">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447165377" xil_pn:in_ck="825493383009201497" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-613896364118199219" xil_pn:start_ts="1447165369">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="adder.lso"/>
+      <outfile xil_pn:name="adder.ngc"/>
+      <outfile xil_pn:name="adder.ngr"/>
+      <outfile xil_pn:name="adder.prj"/>
+      <outfile xil_pn:name="adder.stx"/>
+      <outfile xil_pn:name="adder.syr"/>
+      <outfile xil_pn:name="adder.xst"/>
+      <outfile xil_pn:name="adder_vhdl.prj"/>
+      <outfile xil_pn:name="adder_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

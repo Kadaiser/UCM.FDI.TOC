@@ -1,2 +1,0 @@
-vhdtdtfi -lib work fa_gp.vhd -prj practica3 -o fa_gp.spl -module fa_gp -template D:/Desarrollo/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3 fa_gp.spl D:/Kadaiser/Documents/GitHub/TOC/practica3/fa_gp.sym 

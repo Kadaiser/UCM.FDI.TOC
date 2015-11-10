@@ -1,0 +1,3 @@
+vhdl isim_temp "full_adder.vhd"
+vhdl isim_temp "carry-ripple.vhd"
+vhdl isim_temp "TestCarryRipple.vhd"

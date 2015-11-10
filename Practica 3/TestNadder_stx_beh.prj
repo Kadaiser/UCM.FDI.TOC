@@ -1,0 +1,2 @@
+vhdl isim_temp "GenericNadder.vhd"
+vhdl isim_temp "TestNadder.vhd"

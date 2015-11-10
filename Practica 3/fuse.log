@@ -1,0 +1,26 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/adder/adder/adder/TestCarryLookAhead2_isim_beh.exe -prj E:/adder/adder/adder/TestCarryLookAhead2_beh.prj work.TestCarryLookAhead2 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/adder/adder/adder/uaalvl2.vhd" into library work
+Parsing VHDL file "E:/adder/adder/adder/uaalvl1.vhd" into library work
+Parsing VHDL file "E:/adder/adder/adder/FullAdderGP.vhd" into library work
+Parsing VHDL file "E:/adder/adder/adder/carrylookahead2.vhd" into library work
+Parsing VHDL file "E:/adder/adder/adder/TestCarryLookAhead2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity uaalvl1 [\uaalvl1(3)\]
+Compiling architecture behavioral of entity uaalvl2 [\uaalvl2(3)\]
+Compiling architecture behavioral of entity FullAdderGP [fulladdergp_default]
+Compiling architecture behavioral of entity carrylookahead2 [\carrylookahead2(16)\]
+Compiling architecture behavior of entity testcarrylookahead2
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 VHDL Units
+Built simulation executable E:/adder/adder/adder/TestCarryLookAhead2_isim_beh.exe
+Fuse Memory Usage: 36588 KB
+Fuse CPU Usage: 576 ms
