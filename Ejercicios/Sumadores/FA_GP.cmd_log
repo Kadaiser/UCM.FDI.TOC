@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Ejercicios/Sumadores/FA_GP.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Ejercicios/Sumadores/FA_GP.syr" 
