@@ -21,7 +21,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity FullAdderGP is
+entity FAGP is
    port ( cin : in std_logic;
           x   : in std_logic;
           y   : in std_logic;
@@ -29,9 +29,9 @@ entity FullAdderGP is
           p   : out std_logic;
           s   : out std_logic);
 
-end FullAdderGP;
+end FAGP;
 
-architecture Behavioral of FullAdderGP is
+architecture Behavioral of FAGP is
 
 begin
 

@@ -21,15 +21,15 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity FullAdder is
+entity FA is
 port ( cin : in std_logic ;
        op1 : in std_logic ;
        op2 : in std_logic ;
        add : out std_logic ;
        cout : out std_logic );
-end FullAdder ;
+end FA ;
 
-architecture Behavioral of FullAdder is
+architecture Behavioral of FA is
 
 begin
 

@@ -1,0 +1,434 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Reading design: divider.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "divider.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "divider"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : divider
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/hlocal/Divisor-VHDL-master/Divisor-VHDL-master/DivisorGenerico/cd.vhd" in Library work.
+Entity <cd> compiled.
+Entity <cd> (Architecture <rtl>) compiled.
+Compiling vhdl file "C:/hlocal/Divisor-VHDL-master/Divisor-VHDL-master/DivisorGenerico/uc.vhd" in Library work.
+Architecture rtl of Entity uc is up to date.
+Compiling vhdl file "C:/hlocal/Divisor-VHDL-master/Divisor-VHDL-master/DivisorGenerico/divider.vhd" in Library work.
+Architecture struct of Entity divider is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <divider> in library <work> (architecture <struct>) with generics.
+	n = 6
+
+Analyzing hierarchy for entity <cd> in library <work> (architecture <rtl>) with generics.
+	n = 6
+
+Analyzing hierarchy for entity <uc> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <divider> in library <work> (Architecture <struct>).
+	n = 6
+Entity <divider> analyzed. Unit <divider> generated.
+
+Analyzing generic Entity <cd> in library <work> (Architecture <rtl>).
+	n = 6
+Entity <cd> analyzed. Unit <cd> generated.
+
+Analyzing Entity <uc> in library <work> (Architecture <rtl>).
+Entity <uc> analyzed. Unit <uc> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <cd>.
+    Related source file is "C:/hlocal/Divisor-VHDL-master/Divisor-VHDL-master/DivisorGenerico/cd.vhd".
+    Found 7-bit addsub for signal <add>.
+    Found 6-bit down counter for signal <cntr>.
+    Found 6-bit register for signal <cntr_d1>.
+    Found 6-bit register for signal <coc_r>.
+    Found 7-bit register for signal <dndo_r>.
+    Found 7-bit register for signal <dsor_r>.
+    Found 6-bit up counter for signal <shift>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <cd> synthesized.
+
+
+Synthesizing Unit <uc>.
+    Related source file is "C:/hlocal/Divisor-VHDL-master/Divisor-VHDL-master/DivisorGenerico/uc.vhd".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <current_state> of Case statement line 123 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <current_state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <current_state>.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <current_state> of Case statement line 52 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <current_state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found 9-bit register for signal <current_state>.
+Unit <uc> synthesized.
+
+
+Synthesizing Unit <divider>.
+    Related source file is "C:/hlocal/Divisor-VHDL-master/Divisor-VHDL-master/DivisorGenerico/divider.vhd".
+Unit <divider> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 7-bit addsub                                          : 1
+# Counters                                             : 2
+ 6-bit down counter                                    : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 5
+ 6-bit register                                        : 2
+ 7-bit register                                        : 2
+ 9-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 7-bit addsub                                          : 1
+# Counters                                             : 2
+ 6-bit down counter                                    : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <divider> ...
+
+Optimizing unit <cd> ...
+
+Optimizing unit <uc> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block divider, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 47
+ Flip-Flops                                            : 47
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : divider.ngr
+Top Level Output File Name         : divider
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 82
+#      INV                         : 2
+#      LUT2                        : 11
+#      LUT2_L                      : 2
+#      LUT3                        : 23
+#      LUT3_L                      : 7
+#      LUT4                        : 20
+#      LUT4_D                      : 1
+#      LUT4_L                      : 2
+#      MUXCY                       : 6
+#      MUXF5                       : 1
+#      XORCY                       : 7
+# FlipFlops/Latches                : 47
+#      FDC                         : 8
+#      FDCE                        : 26
+#      FDE                         : 6
+#      FDP                         : 1
+#      FDPE                        : 6
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 14
+#      OBUF                        : 13
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                       37  out of   7680     0%  
+ Number of Slice Flip Flops:             47  out of  15360     0%  
+ Number of 4 input LUTs:                 68  out of  15360     0%  
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    173    16%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 47    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------------+------------------------+-------+
+Control Signal                                      | Buffer(FF name)        | Load  |
+----------------------------------------------------+------------------------+-------+
+i_cd/rst_n_inv(i_uc/current_state_Acst_inv1_INV_0:O)| NONE(i_cd/cntr_0)      | 41    |
+----------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.532ns (Maximum Frequency: 180.760MHz)
+   Minimum input arrival time before clock: 3.611ns
+   Maximum output required time after clock: 6.306ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.532ns (frequency: 180.760MHz)
+  Total number of paths / destination ports: 359 / 85
+-------------------------------------------------------------------------
+Delay:               5.532ns (Levels of Logic = 9)
+  Source:            i_uc/current_state_6 (FF)
+  Destination:       i_cd/dndo_r_6 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: i_uc/current_state_6 to i_cd/dndo_r_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             19   0.626   1.233  i_uc/current_state_6 (i_uc/current_state_6)
+     INV:I->O              1   0.479   0.681  i_cd/add_mux00002_INV_0 (i_cd/add_mux0000)
+     MUXCY:CI->O           1   0.056   0.000  i_cd/Maddsub_add_cy<0> (i_cd/Maddsub_add_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  i_cd/Maddsub_add_cy<1> (i_cd/Maddsub_add_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  i_cd/Maddsub_add_cy<2> (i_cd/Maddsub_add_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  i_cd/Maddsub_add_cy<3> (i_cd/Maddsub_add_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  i_cd/Maddsub_add_cy<4> (i_cd/Maddsub_add_cy<4>)
+     MUXCY:CI->O           0   0.056   0.000  i_cd/Maddsub_add_cy<5> (i_cd/Maddsub_add_cy<5>)
+     XORCY:CI->O           1   0.786   0.740  i_cd/Maddsub_add_xor<6> (i_cd/add<6>)
+     LUT3:I2->O            1   0.479   0.000  i_cd/mux_output<6>1 (i_cd/mux_output<6>)
+     FDCE:D                    0.176          i_cd/dndo_r_6
+    ----------------------------------------
+    Total                      5.532ns (2.879ns logic, 2.653ns route)
+                                       (52.0% logic, 48.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              3.611ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       i_cd/shift_5 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to i_cd/shift_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  rst_n_IBUF (rst_n_IBUF)
+     LUT4:I0->O            6   0.479   0.853  i_cd/shift_and00001 (i_cd/shift_and0000)
+     FDE:CE                    0.524          i_cd/shift_0
+    ----------------------------------------
+    Total                      3.611ns (1.718ns logic, 1.893ns route)
+                                       (47.6% logic, 52.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              6.306ns (Levels of Logic = 1)
+  Source:            i_uc/current_state_0 (FF)
+  Destination:       ready (PAD)
+  Source Clock:      clk rising
+
+  Data Path: i_uc/current_state_0 to ready
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.626   0.771  i_uc/current_state_0 (i_uc/current_state_0)
+     OBUF:I->O                 4.909          ready_OBUF (ready)
+    ----------------------------------------
+    Total                      6.306ns (5.535ns logic, 0.771ns route)
+                                       (87.8% logic, 12.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.24 secs
+ 
+--> 
+
+Total memory usage is 256204 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

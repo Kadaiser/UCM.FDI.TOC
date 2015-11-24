@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/FullAdderGP.syr" 

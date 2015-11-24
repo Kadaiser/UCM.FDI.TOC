@@ -104,47 +104,47 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/uaalvl1.vhd" in Library work.
-Architecture behavioral of Entity uaalvl1 is up to date.
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/uaalvl2.vhd" in Library work.
-Architecture behavioral of Entity uaalvl2 is up to date.
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/FullAdderGP.vhd" in Library work.
-Architecture behavioral of Entity fulladdergp is up to date.
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/carrylookahead2.vhd" in Library work.
-Architecture behavioral of Entity carrylookahead2 is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/uaalvl1.vhd" in Library work.
+Architecture behavioral of Entity uaa1 is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/uaalvl2.vhd" in Library work.
+Architecture behavioral of Entity uaa2 is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/FullAdderGP.vhd" in Library work.
+Architecture behavioral of Entity fagp is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd" in Library work.
+Entity <carrylookahead2> (Architecture <arch_add16_2uaa>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <carrylookahead2> in library <work> (architecture <behavioral>) with generics.
-	n = 16
+Analyzing hierarchy for entity <carrylookahead2> in library <work> (architecture <arch_add16_2uaa>) with generics.
+	N = 16
 
-Analyzing hierarchy for entity <uaalvl1> in library <work> (architecture <behavioral>) with generics.
+Analyzing hierarchy for entity <uaa1> in library <work> (architecture <behavioral>) with generics.
 	n = 3
 
-Analyzing hierarchy for entity <uaalvl2> in library <work> (architecture <behavioral>) with generics.
+Analyzing hierarchy for entity <uaa2> in library <work> (architecture <behavioral>) with generics.
 	n = 3
 
-Analyzing hierarchy for entity <FullAdderGP> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <FAGP> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing generic Entity <carrylookahead2> in library <work> (Architecture <behavioral>).
-	n = 16
+Analyzing generic Entity <carrylookahead2> in library <work> (Architecture <arch_add16_2uaa>).
+	N = 16
 Entity <carrylookahead2> analyzed. Unit <carrylookahead2> generated.
 
-Analyzing generic Entity <uaalvl1> in library <work> (Architecture <behavioral>).
+Analyzing generic Entity <uaa1> in library <work> (Architecture <behavioral>).
 	n = 3
-Entity <uaalvl1> analyzed. Unit <uaalvl1> generated.
+Entity <uaa1> analyzed. Unit <uaa1> generated.
 
-Analyzing generic Entity <uaalvl2> in library <work> (Architecture <behavioral>).
+Analyzing generic Entity <uaa2> in library <work> (Architecture <behavioral>).
 	n = 3
-Entity <uaalvl2> analyzed. Unit <uaalvl2> generated.
+Entity <uaa2> analyzed. Unit <uaa2> generated.
 
-Analyzing Entity <FullAdderGP> in library <work> (Architecture <behavioral>).
-Entity <FullAdderGP> analyzed. Unit <FullAdderGP> generated.
+Analyzing Entity <FAGP> in library <work> (Architecture <behavioral>).
+Entity <FAGP> analyzed. Unit <FAGP> generated.
 
 
 =========================================================================
@@ -153,25 +153,25 @@ Entity <FullAdderGP> analyzed. Unit <FullAdderGP> generated.
 
 Performing bidirectional port resolution...
 
-Synthesizing Unit <uaalvl1>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/uaalvl1.vhd".
-Unit <uaalvl1> synthesized.
+Synthesizing Unit <uaa1>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/uaalvl1.vhd".
+Unit <uaa1> synthesized.
 
 
-Synthesizing Unit <uaalvl2>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/uaalvl2.vhd".
-Unit <uaalvl2> synthesized.
+Synthesizing Unit <uaa2>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/uaalvl2.vhd".
+Unit <uaa2> synthesized.
 
 
-Synthesizing Unit <FullAdderGP>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/FullAdderGP.vhd".
+Synthesizing Unit <FAGP>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/FullAdderGP.vhd".
     Found 1-bit xor2 for signal <p>.
     Found 1-bit xor2 for signal <s>.
-Unit <FullAdderGP> synthesized.
+Unit <FAGP> synthesized.
 
 
 Synthesizing Unit <carrylookahead2>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/carrylookahead2.vhd".
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd".
 Unit <carrylookahead2> synthesized.
 
 
@@ -311,17 +311,17 @@ Delay:               20.323ns (Levels of Logic = 13)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            19   0.715   1.292  cin_IBUF (cin_IBUF)
-     LUT4:I2->O            1   0.479   0.000  uaalvl2_1/Cx_0_or000037_SW02 (uaalvl2_1/Cx_0_or000037_SW01)
-     MUXF5:I0->O           1   0.314   0.740  uaalvl2_1/Cx_0_or000037_SW0_f5 (N32)
-     LUT4:I2->O            1   0.479   0.740  uaalvl2_1/Cx_0_or000080_SW0 (N30)
-     LUT4:I2->O            3   0.479   0.941  uaalvl2_1/Cx_0_or000080 (CarryOut<0>)
-     LUT4:I1->O            1   0.479   0.976  uaalvl2_1/Cx_1_or000023 (uaalvl2_1/Cx_1_or000023)
-     LUT4:I0->O            3   0.479   0.941  uaalvl2_1/Cx_1_or000058 (CarryOut<1>)
-     LUT4:I1->O            1   0.479   0.976  uaalvl2_1/Cx_2_or000023 (uaalvl2_1/Cx_2_or000023)
-     LUT4:I0->O            3   0.479   0.830  uaalvl2_1/Cx_2_or000058 (CarryOut<2>)
-     LUT4:I2->O            1   0.479   0.740  uaalvl2_1/cout58_SW0 (N24)
-     LUT3:I2->O            1   0.479   0.740  uaalvl2_1/cout58_SW1 (N40)
-     LUT4:I2->O            1   0.479   0.681  uaalvl2_1/cout58 (cout_OBUF)
+     LUT4:I2->O            1   0.479   0.000  uaa_2/Cx_0_or000037_SW02 (uaa_2/Cx_0_or000037_SW01)
+     MUXF5:I0->O           1   0.314   0.740  uaa_2/Cx_0_or000037_SW0_f5 (N32)
+     LUT4:I2->O            1   0.479   0.740  uaa_2/Cx_0_or000080_SW0 (N30)
+     LUT4:I2->O            3   0.479   0.941  uaa_2/Cx_0_or000080 (CarryOut<0>)
+     LUT4:I1->O            1   0.479   0.976  uaa_2/Cx_1_or000023 (uaa_2/Cx_1_or000023)
+     LUT4:I0->O            3   0.479   0.941  uaa_2/Cx_1_or000058 (CarryOut<1>)
+     LUT4:I1->O            1   0.479   0.976  uaa_2/Cx_2_or000023 (uaa_2/Cx_2_or000023)
+     LUT4:I0->O            3   0.479   0.830  uaa_2/Cx_2_or000058 (CarryOut<2>)
+     LUT4:I2->O            1   0.479   0.740  uaa_2/cout58_SW0 (N24)
+     LUT3:I2->O            1   0.479   0.740  uaa_2/cout58_SW1 (N40)
+     LUT4:I2->O            1   0.479   0.681  uaa_2/cout58 (cout_OBUF)
      OBUF:I->O                 4.909          cout_OBUF (cout)
     ----------------------------------------
     Total                     20.323ns (10.728ns logic, 9.595ns route)
@@ -331,7 +331,7 @@ Delay:               20.323ns (Levels of Logic = 13)
 
 
 Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.92 secs
+Total CPU time to Xst completion: 5.86 secs
  
 --> 
 

@@ -104,12 +104,12 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/uaa.vhd" in Library work.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/uaa.vhd" in Library work.
 Architecture behavioral of Entity uaa is up to date.
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/FullAdderGP.vhd" in Library work.
-Architecture behavioral of Entity fulladdergp is up to date.
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/carrylookahead.vhd" in Library work.
-Architecture behavioral of Entity carrylookahead is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/FullAdderGP.vhd" in Library work.
+Architecture behavioral of Entity fagp is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead.vhd" in Library work.
+Entity <carrylookahead> (Architecture <arch_add_uaa>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -145,19 +145,19 @@ Entity <FullAdderGP> analyzed. Unit <FullAdderGP> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <uaa>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/uaa.vhd".
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/uaa.vhd".
 Unit <uaa> synthesized.
 
 
 Synthesizing Unit <FullAdderGP>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/FullAdderGP.vhd".
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/FullAdderGP.vhd".
     Found 1-bit xor2 for signal <p>.
     Found 1-bit xor2 for signal <s>.
 Unit <FullAdderGP> synthesized.
 
 
 Synthesizing Unit <carrylookahead>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/carrylookahead.vhd".
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead.vhd".
 Unit <carrylookahead> synthesized.
 
 
@@ -307,7 +307,7 @@ Delay:               11.911ns (Levels of Logic = 6)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.11 secs
+Total CPU time to Xst completion: 5.02 secs
  
 --> 
 

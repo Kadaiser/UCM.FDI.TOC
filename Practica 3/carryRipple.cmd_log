@@ -9,3 +9,6 @@ xst -intstyle ise -ifn "C:/hlocal/adder/adder/carryRipple.xst" -ofn "C:/hlocal/a
 xst -intstyle ise -ifn "C:/hlocal/adder/adder/carryRipple.xst" -ofn "C:/hlocal/adder/adder/carryRipple.syr" 
 xst -intstyle ise -ifn "D:/Kadaiser/Desktop/Practica 3/carryRipple.xst" -ofn "D:/Kadaiser/Desktop/Practica 3/carryRipple.syr" 
 xst -intstyle ise -ifn "D:/Kadaiser/Desktop/Practica 3/carryRipple.xst" -ofn "D:/Kadaiser/Desktop/Practica 3/carryRipple.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carryRipple.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carryRipple.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carryRipple.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carryRipple.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carryRipple.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carryRipple.syr" 

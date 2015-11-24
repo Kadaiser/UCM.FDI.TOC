@@ -21,21 +21,16 @@ library IEEE;
 use IEEE.STD_LOgIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity uaalvl2 is
+entity uaa2 is
 generic(n : natural := 3);
     port ( cin  : in std_logic;
            Gs   : in std_logic_vector (3 downto 0);
            Pss  : in std_logic_vector (3 downto 0);
            Cx   : out std_logic_vector (2 downto 0);
            cout : out std_logic);
-end uaalvl2;
+end uaa2;
 
-architecture Behavioral of uaalvl2 is
+architecture Behavioral of uaa2 is
 
 begin
 

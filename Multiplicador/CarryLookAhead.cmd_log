@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/CarryLookAhead.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/CarryLookAhead.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/CarryLookAhead.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/Multiplicador/CarryLookAhead.syr" 

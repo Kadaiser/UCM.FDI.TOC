@@ -5,5 +5,26 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">117</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">op1</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">117</arg>. <arg fmt="%s" index="3">op1</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">op2</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. <arg fmt="%s" index="3">op2</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">121</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">add</arg>&apos;.  Should it be: <arg fmt="%s" index="4">and</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">121</arg>. <arg fmt="%s" index="3">add</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="851" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carrylookahead2.vhd</arg>&quot; Line <arg fmt="%d" index="2">115</arg>. Formal <arg fmt="%s" index="3">x</arg> of <arg fmt="%s" index="4">FAGP</arg> with no default value must be associated with an actual value.
+</msg>
+
 </messages>
 

@@ -104,29 +104,30 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/full_adder.vhd" in Library work.
-Architecture behavioral of Entity fulladder is up to date.
-Compiling vhdl file "D:/Kadaiser/Desktop/Practica 3/carry-ripple.vhd" in Library work.
-Architecture behavioral of Entity carryripple is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/full_adder.vhd" in Library work.
+Entity <FA> compiled.
+Entity <FA> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carry-ripple.vhd" in Library work.
+Entity <carryRipple> (Architecture <arch_add_ripple>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <carryRipple> in library <work> (architecture <behavioral>) with generics.
-	n = 16
+Analyzing hierarchy for entity <carryRipple> in library <work> (architecture <arch_add_ripple>) with generics.
+	N = 16
 
-Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <FA> in library <work> (architecture <Behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing generic Entity <carryRipple> in library <work> (Architecture <behavioral>).
-	n = 16
+Analyzing generic Entity <carryRipple> in library <work> (Architecture <arch_add_ripple>).
+	N = 16
 Entity <carryRipple> analyzed. Unit <carryRipple> generated.
 
-Analyzing Entity <FullAdder> in library <work> (Architecture <behavioral>).
-Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+Analyzing Entity <FA> in library <work> (Architecture <Behavioral>).
+Entity <FA> analyzed. Unit <FA> generated.
 
 
 =========================================================================
@@ -135,16 +136,16 @@ Entity <FullAdder> analyzed. Unit <FullAdder> generated.
 
 Performing bidirectional port resolution...
 
-Synthesizing Unit <FullAdder>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/full_adder.vhd".
+Synthesizing Unit <FA>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/full_adder.vhd".
     Found 1-bit xor3 for signal <add>.
     Summary:
 	inferred   1 Xor(s).
-Unit <FullAdder> synthesized.
+Unit <FA> synthesized.
 
 
 Synthesizing Unit <carryRipple>.
-    Related source file is "D:/Kadaiser/Desktop/Practica 3/carry-ripple.vhd".
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/carry-ripple.vhd".
 Unit <carryRipple> synthesized.
 
 
@@ -281,22 +282,22 @@ Delay:               27.312ns (Levels of Logic = 18)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             2   0.715   1.040  op1_0_IBUF (op1_0_IBUF)
-     LUT3:I0->O            2   0.479   0.804  gen1[0].FA/cout1 (Carry<1>)
-     LUT3:I2->O            2   0.479   0.804  gen1[1].FA/cout1 (Carry<2>)
-     LUT3:I2->O            2   0.479   0.804  gen1[2].FA/cout1 (Carry<3>)
-     LUT3:I2->O            2   0.479   0.804  gen1[3].FA/cout1 (Carry<4>)
-     LUT3:I2->O            2   0.479   0.804  gen1[4].FA/cout1 (Carry<5>)
-     LUT3:I2->O            2   0.479   0.804  gen1[5].FA/cout1 (Carry<6>)
-     LUT3:I2->O            2   0.479   0.804  gen1[6].FA/cout1 (Carry<7>)
-     LUT3:I2->O            2   0.479   0.804  gen1[7].FA/cout1 (Carry<8>)
-     LUT3:I2->O            2   0.479   0.804  gen1[8].FA/cout1 (Carry<9>)
-     LUT3:I2->O            2   0.479   0.804  gen1[9].FA/cout1 (Carry<10>)
-     LUT3:I2->O            2   0.479   0.804  gen1[10].FA/cout1 (Carry<11>)
-     LUT3:I2->O            2   0.479   0.804  gen1[11].FA/cout1 (Carry<12>)
-     LUT3:I2->O            2   0.479   0.804  gen1[12].FA/cout1 (Carry<13>)
-     LUT3:I2->O            2   0.479   0.804  gen1[13].FA/cout1 (Carry<14>)
-     LUT3:I2->O            2   0.479   1.040  gen1[14].FA/cout1 (Carry<15>)
-     LUT3:I0->O            1   0.479   0.681  gen1[15].FA/Mxor_add_xo<0>1 (add_15_OBUF)
+     LUT3:I0->O            2   0.479   0.804  gen1[0].FullA/cout1 (Carry<1>)
+     LUT3:I2->O            2   0.479   0.804  gen1[1].FullA/cout1 (Carry<2>)
+     LUT3:I2->O            2   0.479   0.804  gen1[2].FullA/cout1 (Carry<3>)
+     LUT3:I2->O            2   0.479   0.804  gen1[3].FullA/cout1 (Carry<4>)
+     LUT3:I2->O            2   0.479   0.804  gen1[4].FullA/cout1 (Carry<5>)
+     LUT3:I2->O            2   0.479   0.804  gen1[5].FullA/cout1 (Carry<6>)
+     LUT3:I2->O            2   0.479   0.804  gen1[6].FullA/cout1 (Carry<7>)
+     LUT3:I2->O            2   0.479   0.804  gen1[7].FullA/cout1 (Carry<8>)
+     LUT3:I2->O            2   0.479   0.804  gen1[8].FullA/cout1 (Carry<9>)
+     LUT3:I2->O            2   0.479   0.804  gen1[9].FullA/cout1 (Carry<10>)
+     LUT3:I2->O            2   0.479   0.804  gen1[10].FullA/cout1 (Carry<11>)
+     LUT3:I2->O            2   0.479   0.804  gen1[11].FullA/cout1 (Carry<12>)
+     LUT3:I2->O            2   0.479   0.804  gen1[12].FullA/cout1 (Carry<13>)
+     LUT3:I2->O            2   0.479   0.804  gen1[13].FullA/cout1 (Carry<14>)
+     LUT3:I2->O            2   0.479   1.040  gen1[14].FullA/cout1 (Carry<15>)
+     LUT3:I0->O            1   0.479   0.681  gen1[15].FullA/Mxor_add_xo<0>1 (add_15_OBUF)
      OBUF:I->O                 4.909          add_15_OBUF (add<15>)
     ----------------------------------------
     Total                     27.312ns (13.288ns logic, 14.024ns route)
@@ -306,7 +307,7 @@ Delay:               27.312ns (Levels of Logic = 18)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.25 secs
+Total CPU time to Xst completion: 5.19 secs
  
 --> 
 

@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "E:/adder/adder/adder/TestCarryLookAhead2_isim_beh.exe" -prj "E:/adder/adder/adder/TestCarryLookAhead2_beh.prj" "work.TestCarryLookAhead2" 
+-intstyle "ise" -incremental -o "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/FA_isim_beh.exe" -prj "D:/Kadaiser/Documents/GitHub/TOC/Practica 3/FA_beh.prj" "work.FA" 
