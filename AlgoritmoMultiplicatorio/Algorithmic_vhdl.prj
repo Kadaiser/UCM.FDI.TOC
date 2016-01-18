@@ -1,0 +1,8 @@
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\RegistroGenerico.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\ram_memory.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\Multiplexor.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\Contador.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\ALU.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\UnidadControl.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\RutaDatos.vhd"
+vhdl work "D:\Kadaiser\Documents\GitHub\TOC\AlgoritmoMultiplicatorio\Algorithmic.vhd"

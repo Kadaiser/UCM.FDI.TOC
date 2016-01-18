@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">7</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">estado_siguiente</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">52</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">16</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">32</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">cntrl_wire&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_RAM</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM8</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM9</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM10</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM11</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM12</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM13</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM14</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM15</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">RUTA_DATOS/RAM/Mram_RAM16</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">RUTA_DATOS/RAM/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">9 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;RUTA_DATOS/RAM/dout_7&gt; &lt;RUTA_DATOS/RAM/dout_8&gt; &lt;RUTA_DATOS/RAM/dout_9&gt; &lt;RUTA_DATOS/RAM/dout_10&gt; &lt;RUTA_DATOS/RAM/dout_11&gt; &lt;RUTA_DATOS/RAM/dout_12&gt; &lt;RUTA_DATOS/RAM/dout_13&gt; &lt;RUTA_DATOS/RAM/dout_14&gt; &lt;RUTA_DATOS/RAM/dout_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

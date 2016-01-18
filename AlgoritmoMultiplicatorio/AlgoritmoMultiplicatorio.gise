@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="AlgoritmoMultiplicatorio.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Algorithmic.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Algorithmic.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Algorithmic.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Algorithmic.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Algorithmic.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Algorithmic.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Algorithmic.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Algorithmic.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Algorithmic.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Algorithmic.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Algorithmic.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Algorithmic.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Algorithmic.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Algorithmic.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Algorithmic.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Algorithmic.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Algorithmic.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Algorithmic.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Algorithmic.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Algorithmic_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Algorithmic_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Algorithmic_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Algorithmic_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Algorithmic_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Algorithmic_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Algorithmic_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Algorithmic_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Algorithmic_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Algorithmic_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Algorithmic_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Algorithmic_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Algorithmic_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Algorithmic_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Algorithmic_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Algorithmic_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Algorithmic_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RutaDatos.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RutaDatos.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RutaDatos.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RutaDatos.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RutaDatos.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RutaDatos_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RutaDatos_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RutaDatos_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RutaDatos_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="UnidadControl.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="UnidadControl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="UnidadControl.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UnidadControl.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="UnidadControl.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="UnidadControl.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="UnidadControl_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="UnidadControl_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UnidadControl_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="UnidadControl_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_alg_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1453159434" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159434" xil_pn:in_ck="-8395349280743052563" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Algorithmic.vhd"/>
+      <outfile xil_pn:name="Contador.vhd"/>
+      <outfile xil_pn:name="Multiplexor.vhd"/>
+      <outfile xil_pn:name="RegistroGenerico.vhd"/>
+      <outfile xil_pn:name="RutaDatos.vhd"/>
+      <outfile xil_pn:name="UnidadControl.vhd"/>
+      <outfile xil_pn:name="ram_memory.vhd"/>
+      <outfile xil_pn:name="tb_alg.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159434" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="371789368203632393" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159434" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6845337490428718911" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159434" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3670557407224907266" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159434" xil_pn:in_ck="-8395349280743052563" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Algorithmic.vhd"/>
+      <outfile xil_pn:name="Contador.vhd"/>
+      <outfile xil_pn:name="Multiplexor.vhd"/>
+      <outfile xil_pn:name="RegistroGenerico.vhd"/>
+      <outfile xil_pn:name="RutaDatos.vhd"/>
+      <outfile xil_pn:name="UnidadControl.vhd"/>
+      <outfile xil_pn:name="ram_memory.vhd"/>
+      <outfile xil_pn:name="tb_alg.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159437" xil_pn:in_ck="-8395349280743052563" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8815694699097543749" xil_pn:start_ts="1453159434">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="99854449701580267" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3670557407224907266" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8778707757221631283" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7493580321283413264" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159394" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="613039955837843016" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159402" xil_pn:in_ck="-8395349280743052563" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="5634992994181179026" xil_pn:start_ts="1453159394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Algorithmic.lso"/>
+      <outfile xil_pn:name="Algorithmic.ngc"/>
+      <outfile xil_pn:name="Algorithmic.ngr"/>
+      <outfile xil_pn:name="Algorithmic.prj"/>
+      <outfile xil_pn:name="Algorithmic.stx"/>
+      <outfile xil_pn:name="Algorithmic.syr"/>
+      <outfile xil_pn:name="Algorithmic.xst"/>
+      <outfile xil_pn:name="Algorithmic_vhdl.prj"/>
+      <outfile xil_pn:name="Algorithmic_xst.xrpt"/>
+      <outfile xil_pn:name="UnidadControl.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1453159307" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="538374405905419102" xil_pn:start_ts="1453159306">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

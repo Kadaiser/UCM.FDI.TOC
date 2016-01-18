@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-fg320-5 Algorithmic.ngc Algorithmic.ngd  
+map -intstyle ise -p xc3s1000-fg320-5 -cm area -ir off -pr off -c 100 -o Algorithmic_map.ncd Algorithmic.ngd Algorithmic.pcf 
+par -w -intstyle ise -ol high -t 1 Algorithmic_map.ncd Algorithmic.ncd Algorithmic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Algorithmic.twx Algorithmic.ncd -o Algorithmic.twr Algorithmic.pcf 
+xst -intstyle ise -ifn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.xst" -ofn "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.syr" 

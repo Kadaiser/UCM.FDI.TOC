@@ -1,0 +1,32 @@
+Running: D:\Desarrollo\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/tb_alg_isim_beh.exe -prj D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/tb_alg_beh.prj work.tb_alg 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RegistroGenerico.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ram_memory.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Multiplexor.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Contador.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/UnidadControl.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RutaDatos.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.vhd" into library work
+Parsing VHDL file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/tb_alg.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98972 KB
+Fuse CPU Usage: 265 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture arch_contador of entity contador_asc_desc [\contador_asc_desc(5)\]
+Compiling architecture arch_ram of entity ram_memory [ram_memory_default]
+Compiling architecture arch_registro of entity Registro [registro_default]
+Compiling architecture arch_alu of entity ALU [alu_default]
+Compiling architecture arch_multiplexor of entity Multiplexor [multiplexor_default]
+Compiling architecture arch_rutadatos of entity RutaDatos [\RutaDatos(5)\]
+Compiling architecture arch_unidadcontrol of entity UnidadControl [unidadcontrol_default]
+Compiling architecture arch_algorithmic of entity Algorithmic [algorithmic_default]
+Compiling architecture behavior of entity tb_alg
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:861 - Failed to link the design

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/tb_alg_isim_beh.exe" -prj "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/tb_alg_beh.prj" "work.tb_alg" 

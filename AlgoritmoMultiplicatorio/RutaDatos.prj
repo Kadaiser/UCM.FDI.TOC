@@ -1,0 +1,6 @@
+vhdl work "RegistroGenerico.vhd"
+vhdl work "ram_memory.vhd"
+vhdl work "Multiplexor.vhd"
+vhdl work "Contador.vhd"
+vhdl work "ALU.vhd"
+vhdl work "RutaDatos.vhd"

@@ -1,0 +1,581 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Algorithmic.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Algorithmic.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Algorithmic"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-fg320
+
+---- Source Options
+Top Module Name                    : Algorithmic
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Contador.vhd" in Library work.
+Architecture arch_contador of Entity contador_asc_desc is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ram_memory.vhd" in Library work.
+Architecture arch_ram of Entity ram_memory is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RegistroGenerico.vhd" in Library work.
+Architecture arch_registro of Entity registro is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd" in Library work.
+Architecture arch_alu of Entity alu is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Multiplexor.vhd" in Library work.
+Architecture arch_multiplexor of Entity multiplexor is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RutaDatos.vhd" in Library work.
+Architecture arch_rutadatos of Entity rutadatos is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/UnidadControl.vhd" in Library work.
+Architecture arch_unidadcontrol of Entity unidadcontrol is up to date.
+Compiling vhdl file "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.vhd" in Library work.
+Architecture arch_algorithmic of Entity algorithmic is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Algorithmic> in library <work> (architecture <arch_algorithmic>).
+
+Analyzing hierarchy for entity <RutaDatos> in library <work> (architecture <arch_rutadatos>) with generics.
+	m = 5
+
+Analyzing hierarchy for entity <UnidadControl> in library <work> (architecture <arch_unidadcontrol>).
+
+Analyzing hierarchy for entity <contador_asc_desc> in library <work> (architecture <arch_contador>) with generics.
+	n = 5
+
+Analyzing hierarchy for entity <ram_memory> in library <work> (architecture <arch_ram>).
+
+Analyzing hierarchy for entity <Registro> in library <work> (architecture <arch_registro>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <arch_alu>).
+
+Analyzing hierarchy for entity <Multiplexor> in library <work> (architecture <arch_multiplexor>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Algorithmic> in library <work> (Architecture <arch_algorithmic>).
+Entity <Algorithmic> analyzed. Unit <Algorithmic> generated.
+
+Analyzing generic Entity <RutaDatos> in library <work> (Architecture <arch_rutadatos>).
+	m = 5
+Entity <RutaDatos> analyzed. Unit <RutaDatos> generated.
+
+Analyzing generic Entity <contador_asc_desc> in library <work> (Architecture <arch_contador>).
+	n = 5
+Entity <contador_asc_desc> analyzed. Unit <contador_asc_desc> generated.
+
+Analyzing Entity <ram_memory> in library <work> (Architecture <arch_ram>).
+Entity <ram_memory> analyzed. Unit <ram_memory> generated.
+
+Analyzing Entity <Registro> in library <work> (Architecture <arch_registro>).
+Entity <Registro> analyzed. Unit <Registro> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <arch_alu>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <Multiplexor> in library <work> (Architecture <arch_multiplexor>).
+Entity <Multiplexor> analyzed. Unit <Multiplexor> generated.
+
+Analyzing Entity <UnidadControl> in library <work> (Architecture <arch_unidadcontrol>).
+Entity <UnidadControl> analyzed. Unit <UnidadControl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UnidadControl>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/UnidadControl.vhd".
+    Using one-hot encoding for signal <estado_actual>.
+WARNING:Xst:737 - Found 7-bit latch for signal <estado_siguiente>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 7-bit register for signal <estado_actual>.
+Unit <UnidadControl> synthesized.
+
+
+Synthesizing Unit <contador_asc_desc>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Contador.vhd".
+    Found 5-bit updown counter for signal <almacenado>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador_asc_desc> synthesized.
+
+
+Synthesizing Unit <ram_memory>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ram_memory.vhd".
+    Found 32x16-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 16-bit register for signal <dout>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <ram_memory> synthesized.
+
+
+Synthesizing Unit <Registro>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RegistroGenerico.vhd".
+    Found 32-bit register for signal <reg_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Registro> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd".
+WARNING:Xst:643 - "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd" line 52: The result of a 32x16-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 32-bit 4-to-1 multiplexer for signal <out_resize>.
+    Found 32-bit adder for signal <out_resize$addsub0000> created at line 54.
+    Found 32x16-bit multiplier for signal <out_resize$mult0001> created at line 52.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred  32 Multiplexer(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <Multiplexor>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Multiplexor.vhd".
+Unit <Multiplexor> synthesized.
+
+
+Synthesizing Unit <RutaDatos>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RutaDatos.vhd".
+WARNING:Xst:646 - Signal <cntrl_wire<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <RutaDatos> synthesized.
+
+
+Synthesizing Unit <Algorithmic>.
+    Related source file is "D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.vhd".
+Unit <Algorithmic> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x16-bit single-port RAM                             : 1
+# Multipliers                                          : 1
+ 32x16-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 1
+ 5-bit updown counter                                  : 1
+# Registers                                            : 3
+ 16-bit register                                       : 1
+ 32-bit register                                       : 1
+ 7-bit register                                        : 1
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ram_memory>.
+INFO:Xst:3231 - The small RAM <Mram_RAM> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 16-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <ram_memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x16-bit single-port distributed RAM                 : 1
+# Multipliers                                          : 1
+ 32x16-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 1
+ 5-bit updown counter                                  : 1
+# Registers                                            : 55
+ Flip-Flops                                            : 55
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Algorithmic> ...
+
+Optimizing unit <ram_memory> ...
+
+Optimizing unit <Registro> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <RutaDatos> ...
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM8> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM9> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM10> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM11> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM12> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM13> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM14> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM15> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <RUTA_DATOS/RAM/Mram_RAM7>, <RUTA_DATOS/RAM/Mram_RAM16> are equivalent, second RAM is removed
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <RUTA_DATOS/RAM/dout_6> in Unit <Algorithmic> is equivalent to the following 9 FFs/Latches, which will be removed : <RUTA_DATOS/RAM/dout_7> <RUTA_DATOS/RAM/dout_8> <RUTA_DATOS/RAM/dout_9> <RUTA_DATOS/RAM/dout_10> <RUTA_DATOS/RAM/dout_11> <RUTA_DATOS/RAM/dout_12> <RUTA_DATOS/RAM/dout_13> <RUTA_DATOS/RAM/dout_14> <RUTA_DATOS/RAM/dout_15> 
+Found area constraint ratio of 100 (+ 5) on block Algorithmic, actual ratio is 0.
+FlipFlop RUTA_DATOS/RAM/dout_6 has been replicated 1 time(s)
+FlipFlop UNIDAD_CONTROL/estado_actual_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop UNIDAD_CONTROL/estado_actual_6 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 54
+ Flip-Flops                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Algorithmic.ngr
+Top Level Output File Name         : Algorithmic
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 58
+
+Cell Usage :
+# BELS                             : 114
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 47
+#      LUT3                        : 16
+#      LUT4                        : 14
+#      MUXCY                       : 19
+#      VCC                         : 1
+#      XORCY                       : 15
+# FlipFlops/Latches                : 61
+#      FDC                         : 7
+#      FDCE                        : 32
+#      FDCPE                       : 5
+#      FDE                         : 8
+#      FDP                         : 2
+#      LD_1                        : 7
+# RAMS                             : 7
+#      RAM32X1S                    : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 57
+#      IBUF                        : 23
+#      OBUF                        : 34
+# MULTs                            : 2
+#      MULT18X18                   : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000fg320-5 
+
+ Number of Slices:                       51  out of   7680     0%  
+ Number of Slice Flip Flops:             59  out of  15360     0%  
+ Number of 4 input LUTs:                 92  out of  15360     0%  
+    Number used as logic:                78
+    Number used as RAMs:                 14
+ Number of IOs:                          58
+ Number of bonded IOBs:                  58  out of    221    26%  
+    IOB Flip Flops:                       2
+ Number of MULT18X18s:                    2  out of     24     8%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                  | Load  |
+-----------------------------------+----------------------------------------+-------+
+clk                                | BUFGP                                  | 61    |
+UNIDAD_CONTROL/estado_actual_6     | NONE(UNIDAD_CONTROL/estado_siguiente_6)| 7     |
+-----------------------------------+----------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------------+-----------------------------------+-------+
+Control Signal                                                                 | Buffer(FF name)                   | Load  |
+-------------------------------------------------------------------------------+-----------------------------------+-------+
+reset                                                                          | IBUF                              | 41    |
+RUTA_DATOS/CONT/almacenado_0__and0000(RUTA_DATOS/CONT/almacenado_0__and00001:O)| NONE(RUTA_DATOS/CONT/almacenado_0)| 1     |
+RUTA_DATOS/CONT/almacenado_0__and0001(RUTA_DATOS/CONT/almacenado_0__and00011:O)| NONE(RUTA_DATOS/CONT/almacenado_0)| 1     |
+RUTA_DATOS/CONT/almacenado_1__and0000(RUTA_DATOS/CONT/almacenado_1__and00001:O)| NONE(RUTA_DATOS/CONT/almacenado_1)| 1     |
+RUTA_DATOS/CONT/almacenado_1__and0001(RUTA_DATOS/CONT/almacenado_1__and00011:O)| NONE(RUTA_DATOS/CONT/almacenado_1)| 1     |
+RUTA_DATOS/CONT/almacenado_2__and0000(RUTA_DATOS/CONT/almacenado_2__and00001:O)| NONE(RUTA_DATOS/CONT/almacenado_2)| 1     |
+RUTA_DATOS/CONT/almacenado_2__and0001(RUTA_DATOS/CONT/almacenado_2__and00011:O)| NONE(RUTA_DATOS/CONT/almacenado_2)| 1     |
+RUTA_DATOS/CONT/almacenado_3__and0000(RUTA_DATOS/CONT/almacenado_3__and00001:O)| NONE(RUTA_DATOS/CONT/almacenado_3)| 1     |
+RUTA_DATOS/CONT/almacenado_3__and0001(RUTA_DATOS/CONT/almacenado_3__and00011:O)| NONE(RUTA_DATOS/CONT/almacenado_3)| 1     |
+RUTA_DATOS/CONT/almacenado_4__and0000(RUTA_DATOS/CONT/almacenado_4__and00001:O)| NONE(RUTA_DATOS/CONT/almacenado_4)| 1     |
+RUTA_DATOS/CONT/almacenado_4__and0001(RUTA_DATOS/CONT/almacenado_4__and00011:O)| NONE(RUTA_DATOS/CONT/almacenado_4)| 1     |
+-------------------------------------------------------------------------------+-----------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.806ns (Maximum Frequency: 101.983MHz)
+   Minimum input arrival time before clock: 4.747ns
+   Maximum output required time after clock: 6.280ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.806ns (frequency: 101.983MHz)
+  Total number of paths / destination ports: 9299 / 117
+-------------------------------------------------------------------------
+Delay:               9.806ns (Levels of Logic = 5)
+  Source:            RUTA_DATOS/RAM/dout_6_1 (FF)
+  Destination:       RUTA_DATOS/REG/reg_out_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: RUTA_DATOS/RAM/dout_6_1 to RUTA_DATOS/REG/reg_out_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.626   0.964  RUTA_DATOS/RAM/dout_6_1 (RUTA_DATOS/RAM/dout_6_1)
+     MULT18X18:B15->P30    1   4.159   0.851  RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_submult_0 (RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_submult_0_30)
+     LUT2:I1->O            1   0.479   0.000  RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_Madd_lut<30> (RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_Madd_lut<30>)
+     MUXCY:S->O            0   0.435   0.000  RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_Madd_cy<30> (RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_Madd_cy<30>)
+     XORCY:CI->O           1   0.786   0.851  RUTA_DATOS/ALU_U/Mmult_out_resize_mult0001_Madd_xor<31> (RUTA_DATOS/alu_mux_wire<31>)
+     LUT2:I1->O            1   0.479   0.000  RUTA_DATOS/MUX/dout<31>1 (RUTA_DATOS/mux_reg_wire<31>)
+     FDCE:D                    0.176          RUTA_DATOS/REG/reg_out_31
+    ----------------------------------------
+    Total                      9.806ns (7.140ns logic, 2.666ns route)
+                                       (72.8% logic, 27.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'UNIDAD_CONTROL/estado_actual_6'
+  Total number of paths / destination ports: 34 / 4
+-------------------------------------------------------------------------
+Offset:              4.615ns (Levels of Logic = 7)
+  Source:            x<14> (PAD)
+  Destination:       UNIDAD_CONTROL/estado_siguiente_6 (LATCH)
+  Destination Clock: UNIDAD_CONTROL/estado_actual_6 rising
+
+  Data Path: x<14> to UNIDAD_CONTROL/estado_siguiente_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  x_14_IBUF (x_14_IBUF)
+     LUT4:I0->O            1   0.479   0.000  RUTA_DATOS/status_wire_0_and0000_wg_lut<1> (RUTA_DATOS/status_wire_0_and0000_wg_lut<1>)
+     MUXCY:S->O            1   0.435   0.000  RUTA_DATOS/status_wire_0_and0000_wg_cy<1> (RUTA_DATOS/status_wire_0_and0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  RUTA_DATOS/status_wire_0_and0000_wg_cy<2> (RUTA_DATOS/status_wire_0_and0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  RUTA_DATOS/status_wire_0_and0000_wg_cy<3> (RUTA_DATOS/status_wire_0_and0000_wg_cy<3>)
+     MUXCY:CI->O           2   0.265   0.915  RUTA_DATOS/status_wire_0_and0000_wg_cy<4> (status_wire<0>)
+     LUT2:I1->O            1   0.479   0.000  UNIDAD_CONTROL/estado_siguiente_mux0001<6>1 (UNIDAD_CONTROL/estado_siguiente_mux0001<6>)
+     LD_1:D                    0.176          UNIDAD_CONTROL/estado_siguiente_6
+    ----------------------------------------
+    Total                      4.615ns (2.660ns logic, 1.956ns route)
+                                       (57.6% logic, 42.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 26 / 21
+-------------------------------------------------------------------------
+Offset:              4.747ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       RUTA_DATOS/CONT/almacenado_1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to RUTA_DATOS/CONT/almacenado_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            55   0.715   1.857  reset_IBUF (reset_IBUF)
+     LUT2:I1->O            2   0.479   1.040  RUTA_DATOS/CONT/almacenado_Q_mux0000<2>11 (RUTA_DATOS/N2)
+     LUT4:I0->O            1   0.479   0.000  RUTA_DATOS/CONT/almacenado_Q_mux0000<2>1 (RUTA_DATOS/CONT/almacenado_Q_mux0000<2>)
+     FDCPE:D                   0.176          RUTA_DATOS/CONT/almacenado_2
+    ----------------------------------------
+    Total                      4.747ns (1.849ns logic, 2.898ns route)
+                                       (39.0% logic, 61.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 34 / 34
+-------------------------------------------------------------------------
+Offset:              6.280ns (Levels of Logic = 1)
+  Source:            RUTA_DATOS/REG/reg_out_31 (FF)
+  Destination:       y<31> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: RUTA_DATOS/REG/reg_out_31 to y<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.626   0.745  RUTA_DATOS/REG/reg_out_31 (RUTA_DATOS/REG/reg_out_31)
+     OBUF:I->O                 4.909          y_31_OBUF (y<31>)
+    ----------------------------------------
+    Total                      6.280ns (5.535ns logic, 0.745ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.07 secs
+ 
+--> 
+
+Total memory usage is 197492 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :   13 (   0 filtered)
+

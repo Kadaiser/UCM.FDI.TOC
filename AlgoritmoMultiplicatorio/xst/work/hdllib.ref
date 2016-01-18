@@ -1,0 +1,16 @@
+EN multiplexor NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Multiplexor.vhd sub00/vhpl08 1453159404
+EN contador_asc_desc NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Contador.vhd sub00/vhpl00 1453159396
+AR contador_asc_desc arch_contador D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Contador.vhd sub00/vhpl01 1453159397
+AR ram_memory arch_ram D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ram_memory.vhd sub00/vhpl03 1453159399
+AR unidadcontrol arch_unidadcontrol D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/UnidadControl.vhd sub00/vhpl13 1453159409
+EN algorithmic NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.vhd sub00/vhpl14 1453159410
+AR multiplexor arch_multiplexor D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Multiplexor.vhd sub00/vhpl09 1453159405
+EN rutadatos NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RutaDatos.vhd sub00/vhpl10 1453159406
+AR algorithmic arch_algorithmic D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/Algorithmic.vhd sub00/vhpl15 1453159411
+EN unidadcontrol NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/UnidadControl.vhd sub00/vhpl12 1453159408
+AR alu arch_alu D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd sub00/vhpl07 1453159403
+EN ram_memory NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ram_memory.vhd sub00/vhpl02 1453159398
+AR registro arch_registro D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RegistroGenerico.vhd sub00/vhpl05 1453159401
+AR rutadatos arch_rutadatos D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RutaDatos.vhd sub00/vhpl11 1453159407
+EN alu NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/ALU.vhd sub00/vhpl06 1453159402
+EN registro NULL D:/Kadaiser/Documents/GitHub/TOC/AlgoritmoMultiplicatorio/RegistroGenerico.vhd sub00/vhpl04 1453159400
